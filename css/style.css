@@ -1,0 +1,48 @@
+#pages .swiper-wrapper .page1{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page1/page-1-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+#pages .swiper-wrapper .page2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page2/page-2-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+#pages .swiper-wrapper .page3{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page3/page-3-bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+#pages .swiper-wrapper .page4{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page4/page4.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+#pages .swiper-wrapper .page5{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page5/page5.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+#pages .swiper-wrapper .page6{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/page6/page6.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}

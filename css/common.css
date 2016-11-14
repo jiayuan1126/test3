@@ -1,0 +1,89 @@
+/* self common */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-text-size-adjust:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    font:14px/1.2em Helvetica,STHeiti STXihei, Microsoft JhengHei, Microsoft YaHei, Arial;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+input:focus,select:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+a{
+    background: transparent;
+    text-decoration: none;
+    -webkit-touch-callout:none;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+    -webkit-touch-callout: none;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+input,textarea{
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    -webkit-appearance:none;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+input::-webkit-input-placeholder {
+    color: #000000;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+template {
+    display: none;
+}
+
+audio,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+#pages {
+    width: 100%;
+    height: 100%;
+}
+#pages .swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
