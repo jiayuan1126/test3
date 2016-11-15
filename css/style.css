@@ -6,6 +6,26 @@
 	background-size: auto 100%;
 	background-position: center;
 }
+#pages .swiper-wrapper .page1 .page1-w{
+	height: 100%;
+	margin: 0 auto;/*左右居中，根据宽度自适应相同的值*/
+	position: relative;
+}
+.page1 .page1-w #page1{
+	width: 176%;
+	height: 44%;
+	position: absolute;
+	top:26%;
+	margin-left: -38%;
+}
+.page1-w img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
 #pages .swiper-wrapper .page2{
 	width: 100%;
 	height: 100%;

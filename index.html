@@ -23,10 +23,35 @@
 		<div id="pages" class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide page1">
-					111
+					<!--1.在swiper外套一层div，包裹住swiper ,设置外边的div的height：100%，margin：0 auto，
+						给他设置相对定位，水平方向的swiper的width:176%,height:44%;设定绝对定位，top值
+						left:不设置，一定给他加margin-left:-38%;他的目的就是加宽swiper。
+						2.swiper不清楚每一个的width时，给他添加图片，给图片设置（width：100%，height:100%）.
+						 不要添加背景。
+					-->
+					<div class="page1-w">
+						<div id="page1" class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide page1-one">
+									<img src="images/page1/page-1-img-1.png" />
+								</div>
+								<div class="swiper-slide page1-two">
+									<img src="images/page1/page-1-img-2.png">
+								</div>
+								<div class="swiper-slide page1-three">
+									<img src="images/page1/page-1-img-3.png" />
+								</div>
+								<div class="swiper-slide page1-four">
+									<img src="images/page1/page-1-img-4.png">
+								</div>
+							</div>
+						</div>
+					    <div class="next-btn"></div>
+					</div>
+
 				</div>
 				<div class="swiper-slide page2">
-					
+
 				</div>
 				<div class="swiper-slide page3"></div>
 				<div class="swiper-slide page4"></div>
